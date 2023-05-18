@@ -28,7 +28,6 @@ No modules.
 | pool\_name | network that the compute resources of the kubernetes cluster are in | `string` | `"default"` | no |
 | pool\_node\_count | initial amount of nodes to deploy for the kubernetes cluster | `string` | `"1"` | no |
 | pool\_os\_disk\_size | pool os disk size in gb | `string` | `"30"` | no |
-| ARM\_CLIENT\_ID | service principal ID | `any` | n/a | yes |
 | ARM\_CLIENT\_SECRET | service principal secret | `any` | n/a | yes |
 | prefix | dns and tag identifier for the cluster | `any` | n/a | yes |
 
